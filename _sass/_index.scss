@@ -1,7 +1,8 @@
 .site-header {
-  background: #77CEE0;
+  background-color: $teal-color;
   padding-top: 20px;
   padding-bottom: 20px;
+  color: #FFF;
   li {
     position: relative;
     padding: 30px;
@@ -15,10 +16,8 @@
       border: 3px solid #FFF;
       text-align: center;
     }
-    .text {
-      width: 800px;
+    .intro {
       margin-left: 110px;
-      color: #FFF;
       padding-left: 30px;
       border-left: 1px solid #FFF;
     }
@@ -26,12 +25,41 @@
       display: inline-block;
     }
     i {
-      color: #FFF;
       line-height: 74px;
     }
     h3 {
       font-size: 30px;
       font-weight: 500;
+    }
+  }
+}
+.main {
+  min-height: 500px;
+}
+.site-footer {
+  padding: 30px 0;
+  position: relative;
+  color: #FFF;
+  background-color: $teal-color;
+  .slogan {
+    width: 300px;
+    margin: 0 auto;
+    padding: 0 30px;
+    background-color: $teal-color;
+  }
+  hr {
+    position: absolute;
+    top: 20px;
+    height: 1px;
+    border: 0;
+    background-color: #FFF;
+  }
+  .contact {
+    padding: 0 30px;
+    li {
+      display: inline-block;
+      font-size: 14px;
+      padding: 10px;
     }
   }
 }
