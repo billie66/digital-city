@@ -1,0 +1,37 @@
+.site-header {
+  background: #77CEE0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  li {
+    position: relative;
+    padding: 30px;
+    .icon {
+      position: absolute;
+      top: 50%;
+      margin-top: -40px;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 3px solid #FFF;
+      text-align: center;
+    }
+    .text {
+      width: 800px;
+      margin-left: 110px;
+      color: #FFF;
+      padding-left: 30px;
+      border-left: 1px solid #FFF;
+    }
+    span {
+      display: inline-block;
+    }
+    i {
+      color: #FFF;
+      line-height: 74px;
+    }
+    h3 {
+      font-size: 30px;
+      font-weight: 500;
+    }
+  }
+}
