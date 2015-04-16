@@ -63,12 +63,10 @@
     }
   }
 }
-.main {
+.career {
   margin-top: 30px;
   border-top: 1px solid #000;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 20px;
   ul li {
     // display: inline-block;
     float: left;
@@ -140,4 +138,30 @@
     font-size: 22px;
     float: right;
   }
+}
+.web-design, .game-design {
+  border-top: 1px dotted #ddd;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  h4 {
+    font-size: 14px;
+  }
+  p {
+    color: #555;
+    font-size: 14px;
+  }
+  .picture {
+    width: 240px;
+    text-align: center;
+    border: 1px solid red;
+  }
+  ol {
+    width: 700px;
+  }
+}
+.web-design .picture {
+  float: right;
+}
+.game-design ol {
+  float: right;
 }
