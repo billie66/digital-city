@@ -140,6 +140,7 @@
   }
 }
 .web-design, .game-design {
+  position: relative;
   border-top: 1px dotted #ddd;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -150,18 +151,34 @@
     color: #555;
     font-size: 14px;
   }
+  .title {
+    font-size: 25px;
+  }
   .picture {
     width: 240px;
     text-align: center;
     border: 1px solid red;
+    color: $teal-color;
   }
   ol {
     width: 700px;
   }
 }
 .web-design .picture {
-  float: right;
+  margin-top: 0;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -50px;
 }
-.game-design ol {
-  float: right;
+.game-design {
+  .picture {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -50px;
+  }
+  ol {
+    float: right;
+  }
 }
