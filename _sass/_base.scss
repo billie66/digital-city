@@ -13,6 +13,8 @@
 html, body {
   height: 100%;
   -webkit-font-smoothing: antialiased;
+  font-family: sans-serif;
+  background-color: #ececec;
 }
 body, ul, h3, h4, p {
   margin: 0;
@@ -24,4 +26,7 @@ ul {
 .wrapper {
   width: 960px;
   margin: 0 auto;
+  -moz-box-shadow: 0 0 35px rgba(0,0,0,.4);
+  -webkit-box-shadow: 0 0 35px rgba(0,0,0,.4);
+  box-shadow: 0 0 35px rgba(0,0,0,.4);
 }
